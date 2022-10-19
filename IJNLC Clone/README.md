@@ -17,7 +17,8 @@ Git-For-Geeks in as open source contribution event conducted by Geeks-for-Geeks 
 
 ## *****How to contribute?*****
 
-- Clone the Repository.
+- Fork the Repository.
+- Clone the forked Repository.
 - Run IJNLC.html to view the webpage.
 - Go to the respective Project directory.
 - Create an issue telling us about the fix or improvement you want to make.
