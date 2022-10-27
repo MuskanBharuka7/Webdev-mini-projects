@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel.com</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/booking.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-hiking"></i> travel.com </a>
+
+
+
+    <nav class="navbar">
+      <div id="nav-close" class="fas fa-times"></div>
+      <a href="index.html#home">home</a>
+      <a href="index.html#about">about</a>
+      <a href="index.html#packages">packages</a>
+      <a href="index.html#covid">Guidlines</a>
+      <a href="index.html#blogs">blogs</a>
+  </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>never stop</span>
+                        <h3 >Book Your Ticket Now</h3>
+                        <a href="#bookingdetails" class="btn">BOOK</a>
+                    </div>
+                </div>
+            </div>
+
+        
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+<!-- form section starts -->
+<section id="bookingdetails">
+    <div class="container">
+  
+        <h2 style="font-size:40px ;">Book your Travel<small>Discount 50%</small></h2>
+        
+        <form style="text-align:center ;">
+          
+          <div class="group">      
+            <input type="text" required>
+            <label>Name</label>
+          </div>
+            
+          <div class="group">      
+            <input type="number" required>
+            <label>Number of Persons</label>
+        </div>
+        <div class="group">      
+          <input  type="date"  required>
+          <label>Booking Date [FROM]</label>
+        </div>
+          <div class="group">      
+            <input  type="date"  required>
+            <label>Booking Date [TO]</label>
+          </div>
+          <div class="group">      
+            <input type="number" required>
+            <label>Number of Days</label>
+          </div>
+          <div class="group">      
+            <input type="number" required>
+            <label>Number of Nights</label>
+          </div>
+          <div class="group">      
+            <input type="text" required>
+            <label>Name of the Place</label>
+          </div>
+          <div class="group">      
+            <input type="email" required>
+            <label>Email</label>
+          </div>
+          <div class="group">      
+            <input type="tel" required>
+            <label>Contact</label>
+          </div>
+          <button  class="btn" type="reset">Reset</button>
+          <button  class="btn" type="submit">Submit</button>
+          
+        </form>
+            
+      
+        
+      </div>
+</section>
+<!-- form section ends -->
+
+<!-- footer section starts  -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="index.html">home</a>
+          <a href="index.html#about">about</a>
+          <a href="index.html#covid">Guidlines</a>
+          <a href="index.html#packages">packages</a>
+          <a href="index.html#reviews">reviews</a>
+          <a href="index.html#blogs">blogs</a>
+      </div>
+
+      <div class="box">
+          <h3>extra links</h3>
+          <a href="#">my account</a>
+          <a href="#">my order</a>
+          <a href="#">my wishlist</a>
+          <a href="#">ask questions</a>
+          <a href="#">terms of use</a>
+          <a href="#">privacy policy</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <div style="display: flex ;">
+              <a href=""><i class="fas fa-phone"></i></a>  <a href="#">+123-456-7890 </a>
+          </div>
+         <div style="display: flex;"> <a href=""><i class="fas fa-phone"></i></a><a href="#">     +111-222-3333 </a></div>
+         <div style="display: flex;"> <a href=""><i class="fas fa-envelope"></i></a><a href="#">  travel.com@gmail.com </a></div>
+         <div style="display: flex;"> <a href=""><i class="fas fa-map"></i></a><a href="#">       Nagpur, India - 400011 </a></div>
+      </div>
+
+      <div class="box">
+          <h3>follow us</h3>
+          <div style="display:flex ;"><a href=""><i class="fab fa-facebook-f"></i></a><a href="#">    facebook </a></div>
+          <div style="display:flex ;"><a href=""><i class="fab fa-twitter"></i> </a><a href="#">    twitter </a></div>
+          <div style="display:flex ;"><a href=""><i class="fab fa-instagram"></i> </a><a href="#">   instagram </a></div>
+          <div style="display:flex ;"><a href=""><i class="fab fa-linkedin"></i> </a><a href="#">   linkedin </a></div>
+          <div style="display:flex ;"><a href=""><i class="fab fa-github"></i> </a><a href="#">   github </a></div>
+      </div>
+
+  </div>
+
+  <div class="credit">created by <span>Ayush Shete - 29</span> | all rights reserved!</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
