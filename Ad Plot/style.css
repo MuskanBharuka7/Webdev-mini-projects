@@ -1,0 +1,192 @@
+body{
+    
+    font-size: 2.5px;
+    background-image: url("chrome://global/skin/media/imagedoc-darknoise.png");
+}
+
+marquee{
+    color: rgb(1, 28, 83);
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+    
+    color:aliceblue;
+}
+a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.box{
+    height:490px;
+    width: 280px;
+    background-color: hsl(216, 50%, 16%);
+    /* background-color: hsl(215, 32%, 27%); */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    border-radius: 15px;
+
+}
+.container{
+    background-color:hsl(217, 54%, 11%);
+    width:1100px;
+    position: relative;
+    margin:0px 9px;
+    height:640px;
+
+}
+
+.inbox{
+    padding: 2.5px;
+    text-align: left;
+    font-family:"Outfit",sans-serif;
+    /*font-weight:300, 400, 600;*/
+}
+
+h{
+    display: block;
+    padding-top: 15px;
+    width:fit-content;
+    margin-left:15px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+h:hover{
+    color: aqua;
+    cursor:pointer;
+}
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    }
+.img1:hover{
+    background-color: aqua ;
+    cursor:pointer;
+}
+
+article{
+    margin-left: 15px;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    display: block;
+    padding-top: 19px;
+    
+}
+
+present{
+    display:inline-block;
+    padding-top: 20px;
+    margin-left: 28px;
+    font-size: 14px;
+    color:hsl(178, 100%, 50%)
+}
+.img2{
+    position: fixed;
+    width:10px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.vacancy{
+    position: fixed;
+    margin-top:-17px;
+    margin-left: 180px;
+   
+}
+limit{
+    padding-top: 0px;
+    text-align: right;
+    margin-left: 20px;
+    color:hsl(216, 52%, 74%);
+    font-size: 13px;
+}
+.img3{
+    position: fixed;
+    margin-left: px;
+    text-align: right;
+    color:hsl(216, 52%, 74%);
+    font-size: 12px ;
+    width: 15px;
+   
+}
+.divide{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top:20px;
+    width: 250px;
+    height: 1px;
+
+    background-color: hsla(215, 52%, 70%, 0.364);
+
+}
+
+.img4{
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+    border: 1px solid white;
+
+    border-radius: 50%;
+
+    margin-right: 12px;
+}
+
+.owned{
+    position:fixed;
+    font-size: 16px;
+    margin-top: -35px;
+    margin-left: 70px;
+}
+own{
+    color:hsl(216, 52%, 74%);
+   
+}
+
+
+
+
+.newone{
+    position: relative;
+    margin-top: -250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    align-content: center;
+    overflow: hidden;
+}
+.newone:hover{
+    background-color: rgba(36, 223, 223,0.4);
+}
+.img5{
+    display: block;
+    margin-top: 110px;
+    margin-left: 100px;
+    opacity: 0;
+}
+
+.newone:hover .img5{
+    opacity: 1;
+}
