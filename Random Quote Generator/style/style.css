@@ -9,22 +9,27 @@
 }
 
 body {
+    background-image: url("https://imgs.search.brave.com/jBs9aiZjiHrXIM1U5hgWPue9rsPhiH0IJ0Flo4tuYtc/rs:fit:1024:662:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC9NWjhHY3g4/LmpwZw");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #1B98F5;
+    
 }
 
 .container {
     width: 600px;
-    background: whitesmoke;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgb(255, 184, 230);
     border-radius: 10px;
     padding: 35px 20px 35px 10px;
 }
 
 header {
-    font-size: 35px;
+    font-size: 55px;
     font-weight: bold;
     text-align: center;
     font-family: 'Poppins', sans-serif;
